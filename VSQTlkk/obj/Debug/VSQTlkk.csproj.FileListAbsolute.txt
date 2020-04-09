@@ -1,0 +1,15 @@
+G:\Dev\C#\repos\VSQTlkk\VSQTlkk\bin\Debug\VSQTlkk.exe.config
+G:\Dev\C#\repos\VSQTlkk\VSQTlkk\bin\Debug\VSQTlkk.exe
+G:\Dev\C#\repos\VSQTlkk\VSQTlkk\bin\Debug\VSQTlkk.pdb
+G:\Dev\C#\repos\VSQTlkk\VSQTlkk\obj\Debug\VSQTlkk.csprojAssemblyReference.cache
+G:\Dev\C#\repos\VSQTlkk\VSQTlkk\obj\Debug\MainWindow.g.cs
+G:\Dev\C#\repos\VSQTlkk\VSQTlkk\obj\Debug\App.g.cs
+G:\Dev\C#\repos\VSQTlkk\VSQTlkk\obj\Debug\VSQTlkk_MarkupCompile.cache
+G:\Dev\C#\repos\VSQTlkk\VSQTlkk\obj\Debug\VSQTlkk_MarkupCompile.lref
+G:\Dev\C#\repos\VSQTlkk\VSQTlkk\obj\Debug\MainWindow.baml
+G:\Dev\C#\repos\VSQTlkk\VSQTlkk\obj\Debug\VSQTlkk.g.resources
+G:\Dev\C#\repos\VSQTlkk\VSQTlkk\obj\Debug\VSQTlkk.Properties.Resources.resources
+G:\Dev\C#\repos\VSQTlkk\VSQTlkk\obj\Debug\VSQTlkk.csproj.GenerateResource.cache
+G:\Dev\C#\repos\VSQTlkk\VSQTlkk\obj\Debug\VSQTlkk.csproj.CoreCompileInputs.cache
+G:\Dev\C#\repos\VSQTlkk\VSQTlkk\obj\Debug\VSQTlkk.exe
+G:\Dev\C#\repos\VSQTlkk\VSQTlkk\obj\Debug\VSQTlkk.pdb
