@@ -44,15 +44,23 @@ namespace VSQTlkk
             {
                 if (x.Categories != null)
                 {
-                    string itemcats = x.Categories;
-                    ProjectModel prj = new ProjectModel(x.Categories);
-                    _olProjectList.Add(prj);
+                    var itemcats = x.Categories;
+                    //ProjectModel prj = new ProjectModel(x.Categories);
+                    //_olProjectList.Add(prj);
                     if (itemcats.Contains(";"))
                     {
                         List<string> itemCatsList = Regex.Split(x.Categories, "; ").ToList<string>();
-                        foreach (string y in itemCatsList)
+                        foreach (var itemCat in itemCatsList)
                         {
-                            _olProjectList.Contains("aaa");
+                            if (_olProjectList.Contains(itemCat).projectName=="false")
+                            {
+                                ProjectModel prj = new ProjectModel(itemCat, x.Start, x.Duration/itemCatsList.Count);
+                                _olProjectList.Add(prj);
+                            }
+                            else
+                            {
+                                _olProjectList.Contains(itemCat).SetCwHours(x.Start, x.Duration/itemCatsList.Count);
+                            }
                         }
                     }
                     

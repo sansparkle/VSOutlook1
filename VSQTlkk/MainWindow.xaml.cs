@@ -43,7 +43,7 @@ namespace VSQTlkk
             foreach (ProjectModel x in lst){
                 ListBoxItem itm = new ListBoxItem();
                 itm.Content = x.projectName;
-                testlist.Items.Add(itm);
+                DataTable.ItemsSource = lst;
 
             }
 

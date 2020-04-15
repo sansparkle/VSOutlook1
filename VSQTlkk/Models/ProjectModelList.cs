@@ -9,23 +9,19 @@ namespace VSQTlkk.Models
 {
     class ProjectModelList : List<ProjectModel>
     {
-        public bool Contains(string projectname)
+        public ProjectModel Contains(string projectname)
         {
+            ProjectModel dummy = new ProjectModel("false");
+
+            if (this.Count == 0) return dummy;
             foreach (var x in this)
             {
                 if(x.projectName == projectname)
                 {
-                    return true;
+                    return x;
                 }
-                //find in list of objects -  object with property = string 
             }
-            return false;
-
-            //var a = this;
-            //var b = this.ElementAt(0);
-
-            //Debug.Write(a);
-            //Debug.Write(b);
+            return dummy;
         }
     }
 }
