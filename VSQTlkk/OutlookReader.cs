@@ -12,8 +12,8 @@ namespace VSQTlkk
 {
     class OutlookReader : MainWindow
     {
-        private ProjectModelList<ProjectModel> _olProjectList = new ProjectModelList<ProjectModel>();
-        public ProjectModelList<ProjectModel> olProjectList
+        private ProjectModelList _olProjectList = new ProjectModelList();
+        public ProjectModelList olProjectList
         {
             get { return _olProjectList; }
             set { _olProjectList = value; }

@@ -7,20 +7,25 @@ using System.Threading.Tasks;
 
 namespace VSQTlkk.Models
 {
-    class ProjectModelList<T> : List<T>
+    class ProjectModelList : List<ProjectModel>
     {
-        public void Contains(string projectname)
+        public bool Contains(string projectname)
         {
-            //foreach (string x in this)
-            //{
-            //    //find in list of objects -  object with property = string 
-            //}
+            foreach (var x in this)
+            {
+                if(x.projectName == projectname)
+                {
+                    return true;
+                }
+                //find in list of objects -  object with property = string 
+            }
+            return false;
 
-            var a = this;
-            var b = this.ElementAt(0);
+            //var a = this;
+            //var b = this.ElementAt(0);
 
-            Debug.Write(a);
-            Debug.Write(b);
+            //Debug.Write(a);
+            //Debug.Write(b);
         }
     }
 }
