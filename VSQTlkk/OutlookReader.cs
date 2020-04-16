@@ -10,7 +10,7 @@ using Outlook = Microsoft.Office.Interop.Outlook;
 
 namespace VSQTlkk
 {
-///
+
     class OutlookReader : MainWindow
     {
         private ProjectModelList _olProjectList = new ProjectModelList();
